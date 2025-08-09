@@ -14,10 +14,10 @@ const SearchResults = ({ results, isLoading }) => {
             {results.map((item, index) => (
                 <div
                     key={index}
-                    className="bg-white bg-opacity-10 text-white p-4 rounded-md shadow hover:bg-opacity-20  transition duration-200"    
+                    className="bg-white bg-opacity-10 text-gray-800 p-4 rounded-md shadow hover:bg-opacity-20  transition duration-200"    
                 >
                     <p className="font-semibold">{item.title}</p>
-                    <p className="text-sm text-white">{item.artist}</p>
+                    <p className="text-sm text-gray-500">{item.artist}</p>
                 </div>
             ))}
         </div>
